@@ -8,3 +8,5 @@ http://curhatin.herokuapp.com/account/register
 #Login
 http://curhatin.herokuapp.com/account/login
 {email : string , password : string}
+
+#tag http://curhatin.herokuapp.com/tag {tag:string}
