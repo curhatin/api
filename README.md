@@ -2,11 +2,22 @@
 Curhatin API
 
 #Register
-http://curhatin.herokuapp.com/account/register
+https://curhatin.herokuapp.com/account/register
 {fname : string, email : string , password :string}
 
 #Login
-http://curhatin.herokuapp.com/account/login
+https://curhatin.herokuapp.com/account/login
 {email : string , password : string}
 
-#tag http://curhatin.herokuapp.com/tag {tag:string}
+#tag 
+https://curhatin.herokuapp.com/tag 
+{tag:string}
+
+#post
+https://curhatin.herokuapp.com/post/add
+{postId : integer , tagId: integer , post : text , topic : text}
+
+#comment
+https://curhatin.herokuapp.com/comment/add
+{postId : integer , accountId : integer , comments : TEXT}
+
