@@ -21,3 +21,6 @@ https://curhatin.herokuapp.com/post/add
 https://curhatin.herokuapp.com/comment/add
 {postId : integer , accountId : integer , comments : TEXT}
 
+#postComment
+https://curhatin.herokuapp.com/postcomment/get
+{postId : integer}
